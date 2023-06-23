@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0391470c-5f9b-4ecc-8d26-7c8a4cb632e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29collections/LinkedList01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29collections/Queues01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29collections/Queues02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29collections/Sets01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29collections/Sets02.java" afterDir="false" />
+    <list default="true" id="0391470c-5f9b-4ecc-8d26-7c8a4cb632e7" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/Tekrar011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/Tekrar0111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30maps/HashMap01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30maps/HashMap02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30maps/HashMap03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day10ifstatements/NestedIf03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day10ifstatements/NestedIf03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day10ifstatements/Tekrar011.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day10ifstatements/Tekrar011.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day11nestedifternaryincrementdecrement/NestedIf01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day11nestedifternaryincrementdecrement/NestedIf01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/IncrementDecrement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/IncrementDecrement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/NestedIf01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/NestedIf01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/Tekrar01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/Tekrar01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/Ternary01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/Ternary01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/Ternary02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day11nestedifternaryincrementdecrement/Ternary02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day29collections/Queues02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day29collections/Queues02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11nestedifternaryincrementdecrement/IncrementDecrement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day11nestedifternaryincrementdecrement/IncrementDecrement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11nestedifternaryincrementdecrement/Ternary01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day11nestedifternaryincrementdecrement/Ternary01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day11nestedifternaryincrementdecrement/Ternary02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day11nestedifternaryincrementdecrement/Ternary02.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="05967354-36ef-4d57-ad9c-6bdbaacb6f6f" />
+        <option name="url" value="https://github.com/orhancimenci/Batch171.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/day01variables/Variables01.java" root0="FORCE_HIGHLIGHTING" />
@@ -62,16 +81,29 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedList01">
+  <component name="RunManager" selected="Application.Ternary02">
     <configuration name="LinkedList01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day29collections.LinkedList01" />
       <module name="Batch171" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day29collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tekrar01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11nestedifternaryincrementdecrement.Tekrar01" />
+      <module name="Batch171" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11nestedifternaryincrementdecrement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day09ifstatements.Tekrar01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09ifstatements.Tekrar01" />
+    <configuration name="Tekrar0111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11nestedifternaryincrementdecrement.Tekrar0111" />
       <module name="Batch171" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09ifstatements.*" />
+          <option name="PATTERN" value="day11nestedifternaryincrementdecrement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,25 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day10ifstatements.Homework01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10ifstatements.Homework01" />
+    <configuration name="Ternary02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11nestedifternaryincrementdecrement.Ternary02" />
       <module name="Batch171" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10ifstatements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day10ifstatements.Tekrar01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10ifstatements.Tekrar01" />
-      <module name="Batch171" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10ifstatements.*" />
+          <option name="PATTERN" value="day11nestedifternaryincrementdecrement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ternary02" />
+        <item itemvalue="Application.Tekrar0111" />
+        <item itemvalue="Application.Tekrar01" />
         <item itemvalue="Application.LinkedList01" />
         <item itemvalue="Application.Tekrar011" />
-        <item itemvalue="Application.day10ifstatements.Homework01" />
-        <item itemvalue="Application.day10ifstatements.Tekrar01" />
-        <item itemvalue="Application.day09ifstatements.Tekrar01" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +172,19 @@
       <option name="presentableId" value="Default" />
       <updated>1683099552488</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1687254141507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687254141507</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -2,6 +2,7 @@ package day11nestedifternaryincrementdecrement;
 
 public class IncrementDecrement {
     public static void main(String[] args) {
+
         //Incerement 1
         int a = 5;
         System.out.println(a);//5
@@ -13,10 +14,8 @@ public class IncrementDecrement {
         //Ornek 1: Bir tane integer variable olusturun ve onu iki sekilde 5 artirin.
         int b = 10;
         System.out.println(b);//10
-
         b = b + 5;
         System.out.println(b);//15
-
         b += 5;
         System.out.println(b);//20
 
@@ -56,7 +55,7 @@ public class IncrementDecrement {
         //h-=1;
         h--;
 
-        //"post-increment" ve "pre-increment"
+        //"post-increment" (sonra)
 
         int i = 10;
         int k = i++;
@@ -64,7 +63,7 @@ public class IncrementDecrement {
         System.out.println(i);//11 ==> i satir sonunda artirildigi icin i nin degeri 11 olur
         System.out.println(k);//10 ==> i artirilmadan k sepetine konuldugu icin k nin degeri 10 olur
 
-
+        //"pre-increment" (önce)
         int m = 15;
         int n = ++m;
 
@@ -97,7 +96,6 @@ public class IncrementDecrement {
             a)i=i-5;
             b)i-=5;
             c)Eger 1 ile azaltma sozkonusu ise ozaman i--; tavsiye edilir
-
          */
 
     }

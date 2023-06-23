@@ -8,6 +8,7 @@ public class Ternary01 {
     public static void main(String[] args) {
         //Ternary Statement
         //Ornek 1: Sayi 10 dan kucuk ise console a "kucuk" yazdirin, degil ise "Kucuk degil" yazdirin
+
         //----------if else cozumu--------
         int num = 12;
 
