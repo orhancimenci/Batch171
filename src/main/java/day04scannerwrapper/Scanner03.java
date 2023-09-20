@@ -12,10 +12,10 @@ public class Scanner03 {
         double firstNumber = input.nextDouble();
         double secondNumber = input.nextDouble();
 
-        System.out.println(firstNumber+secondNumber);
-        System.out.println(firstNumber-secondNumber);
-        System.out.println(firstNumber*secondNumber);
-        System.out.println(firstNumber/secondNumber);
+        System.out.println(firstNumber + secondNumber);
+        System.out.println(firstNumber - secondNumber);
+        System.out.println(firstNumber * secondNumber);
+        System.out.println(firstNumber / secondNumber);
 
     }
 

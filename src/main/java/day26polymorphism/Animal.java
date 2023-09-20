@@ -3,7 +3,7 @@ package day26polymorphism;
 public class Animal {
     /*
     1) Parent Classdaki methodu child class icinde ozellestirerek kullanmaya overriding yapmak denir
-    2) Overridingde method signature a dokunulmaz ( method signature = method ismi + parantez)
+    2) Overridingde MethodOlusturma signature a dokunulmaz ( MethodOlusturma signature = MethodOlusturma ismi + parantez)
     3) private methodlar override edilemezler
     4) Child classdaki methodun access modifieri parent classdaki override edilmis(Overriden Method)un access modifierindan
     dar olamaz. Aynisi olabilr yada daha genis olabilir
@@ -18,12 +18,12 @@ public class Animal {
     9) static methodlar override edilemezler. Cunku static methodlar tum childlar icin ortak methodlardir. Bir chlid bir ortak methodu
     degistirdiginde diger childlar bundan olumsuz etkilenebilir. Bu yuzden java static methodlarin override edilmesine mussaade etmez
     10) final methodlar override edilemezler. final methodlarin bodysi degistirilemez ama override ederken
-    method body degistiririz bu yuzden java final methodlarin override edilmesine izin vermez
+    MethodOlusturma body degistiririz bu yuzden java final methodlarin override edilmesine izin vermez
         a) Final keywordunu variable lar ile kullanabilirz
             i)eger variable final ise mutlaka deger atanmalidir
             ii) ilk atanan deger degistirelemez
-        b) Final keywordunu method lar ile kullanabilirz
-            i)method final ise bodysi degistirilemez
+        b) Final keywordunu MethodOlusturma lar ile kullanabilirz
+            i)MethodOlusturma final ise bodysi degistirilemez
             ii)degistirilemeyince override yapmak mumkun olmaz
         c)  Final keywordunu class lar ile kullanabilirz
             i) class final ise child i olamaz

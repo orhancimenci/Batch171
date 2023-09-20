@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class IfStatements02 {
     public static void main(String[] args) {
-        //Example 1: Gun sayisini verdiginizde gun ismini yazan kodu yaziniz
-        //  1==> Pazar, 2 ==> Pazartesi .....
+
+        // Example 1: Gun sayisini verdiginizde gun ismini yazan kodu yaziniz
+        //            1 ==> Pazar, 2 ==> Pazartesi .....
 
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen kacinci gun oldugunu giriniz..");
@@ -28,7 +29,6 @@ public class IfStatements02 {
         } else {
             System.out.println("Hatali giris yaptiniz. Lutfen 1 ile 7 arasinda bir sayi giriniz..");
         }
-
 
     }
 }

@@ -22,27 +22,27 @@ public class Scanner05 {
         */
 
         //son rakami al
-        int birlerBasamagi = number%10;
+        int birlerBasamagi = number % 10;
         //sayi kucult
-        number = number/10;
+        number = number / 10;
 
         //sondan ikinci rakami al
-        int sondanIkinci = number%10;
+        int sondanIkinci = number % 10;
         //sayi kucult
-        number = number/10;
+        number = number / 10;
 
         //sondan ucuncu rakami al
-        int sondanUcuncu = number%10;
+        int sondanUcuncu = number % 10;
         //sayi kucult
-        number=number/10;
+        number = number / 10;
 
         //sondan dorduncu rakami al
-        int sondanDorduncu = number%10;
+        int sondanDorduncu = number % 10;
         //sayi kucult
-        number=number/10;
+        number = number / 10;
 
         //sondan besinci rakami al
-        int sondanBesinci = number%10;
+        int sondanBesinci = number % 10;
         //son rakam oldugu icin kucultmeye gerek yok
 
         System.out.println("birlerBasamagi = " + birlerBasamagi);
@@ -50,7 +50,8 @@ public class Scanner05 {
         System.out.println("sondanUcuncu = " + sondanUcuncu);
         System.out.println("sondanDorduncu = " + sondanDorduncu);
         System.out.println("sondanBesinci = " + sondanBesinci);
-        System.out.println(sondanBesinci+sondanDorduncu+sondanUcuncu+sondanIkinci+birlerBasamagi);
+
+        System.out.println(sondanBesinci + sondanDorduncu + sondanIkinci + birlerBasamagi);
 
     }
 

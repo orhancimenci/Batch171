@@ -22,7 +22,8 @@ public class Variables01 {
         plakaKodu = 35;
         System.out.println(plakaKodu);
 
-        //Ornek 3: Basarili mi? sorusu icin bir variable olusturun ve once "false" sonra da "true" degeri atayip ekrana yazdirin
+        //Ornek 3: Basarili mi? sorusu icin bir variable olusturun ve once "false" sonra da "true" degeri atayip
+        // ekrana yazdirin
         boolean isSuccessful = false;
         System.out.println(isSuccessful);
 

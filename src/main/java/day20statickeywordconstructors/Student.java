@@ -2,7 +2,7 @@ package day20statickeywordconstructors;
 
 public class Student {
     /*
-    1) static variable veya static method'lar (class member) tum objectler icin ortak elemandir.
+    1) static variable veya static MethodOlusturma'lar (class member) tum objectler icin ortak elemandir.
     2) static class memberlar uzerinde yapilan tum degisiklikler tum objectleri etkiler.
     3) static class memberlar Class'a, non-static class memberlar objectlere monte edilir.
     Mesela; bir class dan 100 tane object olusturdugunuzda non-static olanlar 100 kere olusturulur

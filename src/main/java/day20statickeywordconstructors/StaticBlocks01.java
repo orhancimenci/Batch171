@@ -7,7 +7,7 @@ public class StaticBlocks01 {
     static String shape;
 
 
-    //Bazen main method calistirilmadan once variable larin hazir hale getirilmesi gerekir.
+    //Bazen main MethodOlusturma calistirilmadan once variable larin hazir hale getirilmesi gerekir.
     //Bu yuzden static block lar kullanilir
     //static variable lar static blocklar icinde initialize edilirse o classin icinde
     // her seyden once hazir hale getirilmis olur
@@ -24,7 +24,7 @@ public class StaticBlocks01 {
 
     public static void main(String[] args) {
         System.out.println(pi);
-        System.out.println("main method");
+        System.out.println("main MethodOlusturma");
 
 
     }

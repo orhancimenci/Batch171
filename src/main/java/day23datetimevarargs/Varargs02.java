@@ -2,7 +2,7 @@ package day23datetimevarargs;
 
 public class Varargs02 {
     public static void main(String[] args) {
-        //Example 2: Verilen isimlerini ilk harflerin console'a yazdiran method'u olusturunuz.
+        //Example 2: Verilen isimlerini ilk harflerin console'a yazdiran MethodOlusturma'u olusturunuz.
         //           Ali Can ==> AC    Kemal Han ==> KH
         getInitials("Ali Can", "Kemal Han", "Omer Can", "Mehmet Tan");
 

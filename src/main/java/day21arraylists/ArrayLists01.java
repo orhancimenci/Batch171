@@ -53,7 +53,7 @@ public class ArrayLists01 {
         System.out.println(ages);//[9, 656, 8, 9, 10, 12, 777, 10, 888, 8, 9, 10]
 
         //ArrayList'te eleman sayisi nasil bulunur?
-        //size() method u bir listteki eleman sayisini verir
+        //size() MethodOlusturma u bir listteki eleman sayisini verir
         int numOfElement = ages.size();
         System.out.println(numOfElement);//12
 
@@ -104,10 +104,10 @@ public class ArrayLists01 {
         }
 
         /*
-            Bir method ogrenirken 3 seyi ogrenin;
-            1) O method ne is yapar?
-            2) O method nasil kullanilir?
-            3) O method size neyi verir?
+            Bir MethodOlusturma ogrenirken 3 seyi ogrenin;
+            1) O MethodOlusturma ne is yapar?
+            2) O MethodOlusturma nasil kullanilir?
+            3) O MethodOlusturma size neyi verir?
          */
 
     }

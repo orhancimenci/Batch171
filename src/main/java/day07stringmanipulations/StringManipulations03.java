@@ -3,12 +3,14 @@ package day07stringmanipulations;
 public class StringManipulations03 {
 
     public static void main(String[] args) {
+
         //Ornek 1: Bir string in bas ve sonunda space character i varsa siliniz
         //  "    Ali Can    " ==> "Ali Can"
         String s = "    Ali Can    ";
         System.out.println(s);
 
-        //trim() method'u bir string in bas ve sonundaki space characterlerini siler, aradaki space'lere dokunmaz
+        //trim() MethodOlusturma'u bir string in bas ve sonundaki space characterlerini siler,
+        //       aradaki space'lere dokunmaz
         String sTrimmed = s.trim();
         System.out.println(sTrimmed);
 
@@ -19,10 +21,10 @@ public class StringManipulations03 {
         String laptop = "$875.99";
 
         String tv2 = tv.replace("$", "");
-        System.out.println(tv2);
+        System.out.println(tv2); //"456.99"
 
         String laptop2 = laptop.replace("$", "");
-        System.out.println(laptop2);
+        System.out.println(laptop2); //"875.99"
 
         double totalPrice = Double.valueOf(tv2) + Double.valueOf(laptop2);
         System.out.println(totalPrice);

@@ -24,7 +24,7 @@ public class Scanner01 {
         System.out.println("Soy isminizi giriniz...");
         String lastName = input.next();
 
-        System.out.println(firstName+""+lastName);
+        System.out.println(firstName+" "+lastName);
 
 
 

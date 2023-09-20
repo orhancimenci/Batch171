@@ -75,14 +75,14 @@ public class IncrementDecrement {
         int p = 17;
         int r = p--;
 
-        System.out.println(p);//16
         System.out.println(r);//17
+        System.out.println(p);//16
 
         int s = 20;
         int t = --s;
 
-        System.out.println(s);
-        System.out.println(t);
+        System.out.println(t);//19
+        System.out.println(s);//19
 
         /*
         1) Increment artirmak demektir, Decrement azaltmak demektir

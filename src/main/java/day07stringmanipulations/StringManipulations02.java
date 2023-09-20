@@ -25,14 +25,14 @@ public class StringManipulations02 {
         boolean second = !pwd.contains(" ");
         System.out.println("second = " + second);
 
-        //3) En az bir buyuk harf olsun
-        //Note:Buyuk harf olmayanlari sil
+        //3)   En az bir buyuk harf olsun
+        //Note: Buyuk harf olmayanlari sil
         //     kalan character sayisina bak
         //     character sayisi sifir ise buyuk harf yok demektir
         //     sifirdan buyuk ise buyuk harf var demektir
 
         boolean third = pwd.replaceAll("[^A-Z]", "").length() > 0;
-        //Methodlari ayni satirda yanyana kullanmaya "method chain" denir
+        //Methodlari ayni satirda yanyana kullanmaya "MethodOlusturma chain" denir
         System.out.println("third = " + third);
 
         //4)  4) En az bir kucuk harf olsun
@@ -43,7 +43,7 @@ public class StringManipulations02 {
         boolean fifth = pwd.replaceAll("[^0-9]", "").length() > 0;
         System.out.println("fifth = " + fifth);
 
-        System.out.println(("Password gecerli mi?  " + (first && second && third && fourth && fifth)));
+        System.out.println("Password gecerli mi?  " + (first && second && third && fourth && fifth));
 
     }
 }

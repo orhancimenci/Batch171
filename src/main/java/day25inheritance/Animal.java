@@ -16,8 +16,8 @@ public class Animal {
      =>Bir class i baska bir classin child classi yapmak icin "extends" keyword kullanilir.
      Ilk yazilan class child, ikinci yazilan class parent (veya super) olur,
 
-     =>Child class objectleri Parent Class dan method ve variablellari kullanabilirler
-     =>Parent class objectleri child classtan method ve variablellari kullanamazlar
+     =>Child class objectleri Parent Class dan MethodOlusturma ve variablellari kullanabilirler
+     =>Parent class objectleri child classtan MethodOlusturma ve variablellari kullanamazlar
 
      =>Javada bir classin sadece 1 tane parenti i olabilir Coklu parent a "Multiple Inheritance" derler
      tekli parent a "Single Inheritance" derler, java Multiple Inheritance i desteklemez

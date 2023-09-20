@@ -17,9 +17,8 @@ public class Scanner04 {
         System.out.println("Dikdörtgenin uzun kenar uzunlugunu giriniz...");
         double longSide = input.nextDouble();
 
-        System.out.println("Alan = " + (shortSide*longSide));
-        System.out.println("Cevre = " + (2*shortSide + 2*longSide));
-
+        System.out.println("Alan = " + (shortSide * longSide));
+        System.out.println("Cevre = " + (2 * shortSide + 2 * longSide));
 
     }
 }

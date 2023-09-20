@@ -15,16 +15,16 @@ public abstract class Courses {
         2)Bazen parent class daki methodun bodysi hicbir child class tarafindan kullanilmaz.
         Bu durumda parenttaki methoda body yazmak hic kullanilmadigi icin mantikli degildir
         Bizde yazmayiz
-        3)Body si yazilmayan method Abstract Mehod denir. Abstract ingilizcede vucutsut yada soyut demektir
+        3)Body si yazilmayan MethodOlusturma Abstract Mehod denir. Abstract ingilizcede vucutsut yada soyut demektir
         4)Methodun body sini yazmayinca java bize hata verir, bizde abstract keywordunu kullanarak
         javaya bu methodun bodyis olmayacak deriz
-        5)abstract keywordunu kullaninca elde ettigimiz abstract method normal classlara konulamaz
+        5)abstract keywordunu kullaninca elde ettigimiz abstract MethodOlusturma normal classlara konulamaz
         o yuzden classi da abtstract yapmaliyiz
-        6) Parent taki method abhstract ise butun cild classlar o methodu override etmek zorundadir
+        6) Parent taki MethodOlusturma abhstract ise butun cild classlar o methodu override etmek zorundadir
         Bu yuzden tum childler icin mecburi olmasini istedigimiz fonksiyonlari abstract yapmak mantikli bir secimdir.
         7) Body si olan methodlar (=Concrete Method) abstract classlarin icine yazilabilir. Abstract methodlar concrete
         classlarin icine yazilamazlar. Concrete methodlar child classlar tarafindan override edilmek zorunda degildir
-        8)"abstract " keyword ile method body bir methodda ayni anda kullanilamaz
+        8)"abstract " keyword ile MethodOlusturma body bir methodda ayni anda kullanilamaz
         9) final methodlar abstract olamazlar. final methodlar override edilemezler, halbuki abstract methodlar
         override edilmek icin olusturulurlar. Bu celiskidir, bu yuzden java abstract methodlarin final olmasina musaade etmez
         10) "abstract class"larin icinde abstract methodlar olur. "abstract methodlar" bodysi olmadigindan eksik methodlar gibi

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class IfStatements04 {
     public static void main(String[] args) {
+
         /*
      Example 1:Kullanicidan yas degerini alan ve yasin hangi evrede oldugunu
                asagidaki tabloya gore yazdiran kodu olusturunuz
@@ -32,7 +33,6 @@ public class IfStatements04 {
         } else {
             System.out.println("Tanimlanmamis yas...");
         }
-
 
     }
 }

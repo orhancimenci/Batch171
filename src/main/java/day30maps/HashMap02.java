@@ -29,7 +29,7 @@ public class HashMap02 {
         stdAges.replace("Gulce", 30, 35);
         System.out.println(stdAges);
 
-        //putIfAbsent("Ali",18); method map de Ali key olarak yoksa Map e 18 value ile ekle demektir
+        //putIfAbsent("Ali",18); MethodOlusturma map de Ali key olarak yoksa Map e 18 value ile ekle demektir
         stdAges.putIfAbsent("Ali", 18);
         System.out.println(stdAges);
 
@@ -37,7 +37,7 @@ public class HashMap02 {
         System.out.println(stdAges.get("Abdullah"));//24
         System.out.println(stdAges.getOrDefault("Abdullah", 0));//24
 
-        //eger eleman mapte yokas get() method null verir
+        //eger eleman mapte yokas get() MethodOlusturma null verir
         // getOrDefault() methodu sizin belirttiginiz degeri verir
         System.out.println(stdAges.get("Mehmet"));//null
         System.out.println(stdAges.getOrDefault("Mehmet", 0));//0

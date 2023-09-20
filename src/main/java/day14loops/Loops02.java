@@ -6,17 +6,17 @@ public class Loops02 {
         // 5+6+7+8 ==> 26
         int sum = 0;
 
-        for (int i=5 ; i<9 ; i++){
-            sum =   sum + i;
-            //  System.out.println("loop ici =>"+sum);
+        for (int i = 5; i < 9; i++) {
+            sum = sum + i;
+            System.out.println("loop ici =>" + sum);
         }
         System.out.println(sum);
 
-        //Ornek 2: 7 den 9 a kadar tamsayilarin carpimini veren kodu yaziniz
+        // Ornek 2: 7 den 9 a kadar tamsayilarin carpimini veren kodu yaziniz
         // 7*8*9 ==> 504
 
         int multiplay = 1;
-        for (int i=7 ; i<10 ; i++){
+        for (int i = 7; i < 10; i++) {
             multiplay = multiplay * i;
         }
         System.out.println(multiplay);
@@ -30,7 +30,6 @@ public class Loops02 {
 
         for (int i = num; i > 0; i = i / 10) {
             toplam = toplam + i % 10;
-
         }
         System.out.println(toplam);
 

@@ -18,23 +18,23 @@ public class DoWhileLoop01 {
              artirma/azaltma
          }while (Loop calisma kurali);
         */
-        //Ornek 1: 5 (dahil) den 3 (dahil) e kadar tum tamsayilari console a yazdirinz
 
+        //Ornek 1: 5 (dahil) den 3 (dahil) e kadar tum tamsayilari console a yazdiriniz
         int a = 5;
         do {
-            System.out.println(a);
+            System.out.print(a + " ");
             a--;
         } while (a > 2);
+        System.out.println();
 
         //1 while-loop
-
         int i = 1;
         while (i < 1) {
             System.out.println("Sen bir while loopsun...");
             i++;
         }
-        //while loop ta zero execution mumkundur
 
+        //while loop ta zero execution mumkundur
 
         //2 do while loop
         int k = 1;

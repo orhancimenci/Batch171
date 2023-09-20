@@ -2,6 +2,7 @@ package day05concatinationoperatorstypecasting;
 
 public class AsciiValues {
     public static void main(String[] args) {
+
         /*
         java da her karakterin sayisal/numerik bir degeri vardir
             Bu degerler sayesinde Compiler (Derleyici) işlemi yapilabiliyor
@@ -22,7 +23,7 @@ public class AsciiValues {
         //java da char lari matematiksel islemlerde kullanirsaniz, java char larin ASCII degerlerini kullanir
         char c1 = 'K';
         char c2 = '?';
-        System.out.println(c1+c2); //138
+        System.out.println(c1 + c2); //138
 
         //Char veri tipleri flexible dir (dönüşebilir, esnektir)
 

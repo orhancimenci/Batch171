@@ -12,7 +12,7 @@ public class Student {
     getmethod olusturarak encapsulate edilmis datanin degerini okuyabiliriz
     1)get methodlar public olur
     2)get methodun return type i okudugu variable in return type i ile ayni olur
-    3)get method bir boolean variable icin olusturulduysa ismi is ile baslar
+    3)get MethodOlusturma bir boolean variable icin olusturulduysa ismi is ile baslar
     ornek=>isSuccessful()
      */
 
@@ -36,12 +36,12 @@ public class Student {
 
     /*
     Encapsulation yaptigimiz datayi istersek diger classlardan nasil degistirebiliriz?
-    "set method" olusturarak Encapsulate edilmis datanin degerini degistirebiliriz
+    "set MethodOlusturma" olusturarak Encapsulate edilmis datanin degerini degistirebiliriz
     1) set methodlar hep public olur
     2) set methodlarin return typei hep void olur
     3) set methodlar parametre kullanir, parametrenin data typei variable ile ayni olur
 
-    NOT 1: set method kullanarak varolan object uzerinde degisiklikler yaparak o object'i sanki
+    NOT 1: set MethodOlusturma kullanarak varolan object uzerinde degisiklikler yaparak o object'i sanki
     yeni bir object'mis gibi kullanabiliriz
 
     NOT 2: get methodlarin diger adi getter, set methodlarin diger adi setter dir

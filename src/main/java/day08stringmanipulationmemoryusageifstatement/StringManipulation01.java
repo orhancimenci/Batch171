@@ -1,6 +1,7 @@
 package day08stringmanipulationmemoryusageifstatement;
 
 public class StringManipulation01 {
+
     public static void main(String[] args) {
         //Ornek 1: Bir String'in hic character icermedigini (Bos string oldugunu) kontrol eden kodu yaziniz
         //1. yol length() methodu ile cozum
@@ -9,7 +10,7 @@ public class StringManipulation01 {
         System.out.println("String bos mu? " + result1);//String bos mu? true
 
         //2.yol tavsiye edilir
-        //Java eger bir konuda method olusturmussa, o methodu kullanmak en iyisidir
+        //Java eger bir konuda MethodOlusturma olusturmussa, o methodu kullanmak en iyisidir
         boolean result2 = str.isEmpty();
         System.out.println("is Empty ? " + result2);//is Empty ? true
 

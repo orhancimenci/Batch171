@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class Switch03 {
     public static void main(String[] args) {
+
         //Example 1: Kulanicidan iki sayi ve yapilacak islemi alan ve +, -, *, /, % islemlerini yapan kodu yaziniz
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Iki sayi giriniz..");
+        System.out.println("Ilk sayiyi giriniz..");
         double a = input.nextDouble();
+        System.out.println("Ikinci sayiyi giriniz..");
         double b = input.nextDouble();
 
         System.out.println("Yapilacak islemi giriniz. +, -, *, /, % dan birini seciniz..");
@@ -24,14 +26,15 @@ public class Switch03 {
             case '*':
                 System.out.println(a + " * " + b + " = " + (a * b));
                 break;
+            case '/':
+                System.out.println(a + " * " + b + " = " + (a / b));
+                break;
             case '%':
-                System.out.println(a + " % " + b + " = " + (a % b/100));
+                System.out.println("(" + a + " / " + b + ")" + " * " + "100" + " = " + "%" + (a / b) * 100);
                 break;
             default:
                 System.out.println("Bu islem tanimlanmamistir");
-
         }
-
 
     }
 }

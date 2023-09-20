@@ -2,8 +2,9 @@ package day08stringmanipulationmemoryusageifstatement;
 
 public class StringManipulation02 {
     public static void main(String[] args) {
-        //Ornek 1:  Bir string in belirli bir karakterinden baslayarak belirli bir karaktere kadar dynamic olarak aliniz
-        //      abc@gmail.com   ===> gmail
+
+        // Ornek 1:  Bir stringin belirli bir karakterinden baslayarak belirli bir karaktere kadar dynamic olarak aliniz
+        //           abc@gmail.com   ===> gmail
 
         String a = "abcdefghei@hotmail.com";
 
@@ -12,7 +13,7 @@ public class StringManipulation02 {
         String companyName = a.substring(startingIndex, endingIndex);
         System.out.println("companyName = " + companyName);//companyName = gmail
 
-        System.out.println("hard coding ==>" + a.substring(4, 9));
+        System.out.println("hard coding ==> " + a.substring(4, 9));
 
         //Ornek 2:Verilen iki string in birbirinin aynisi olup olmadigini kontrol eden kodu yaziniz
         String h = "ali Can";
@@ -20,14 +21,14 @@ public class StringManipulation02 {
         boolean result = h.equals(i);
         System.out.println(result);//false
 
-        //___________________________________________________________________________________________________________________________
+        //_____________________________________________________________________________________________________________
         //Java da Memory kullanimi
 
         /*
         java da iki tane memory vardir
         1) "STACK Memory" ==> small
             a)Kucuk memorydir
-            b)Primitive data ları ve Non-Primitivelerin adreslerini (reference) tutar
+            b)Primitive data ları ve Non-Primitivelerin "ADRESLERINI" (reference) tutar
 
         2) HEAP Memory ==> Huge
             a)Buyuk memory dir
@@ -45,7 +46,7 @@ public class StringManipulation02 {
         ikisi de ayni ise stringler esittir der. ama biz code yazarken genellikle Stringlerin adressleri ile degil,
         degerleri ile ilgileniriz. Bu yuzden String karsilastirmalarinda "==" kullanmayiz
 
-        "equals()" methodu ise iki string i karsilastirirken sadece degerlerine bakar. degerleri ayni ise bu iki string
+        "equals()" methodu ise iki string i karsilastirirken "sadece degerlerine" bakar. degerleri ayni ise bu iki string
         esittir der, degerler farkli ise bu iki string farklidir der; ki bu bizim kod yazarken ihtiyac duyudugumuz seydir
         */
 
@@ -57,11 +58,11 @@ public class StringManipulation02 {
         System.out.println(s.equals(t));//false cunku degerler farkli
         System.out.println(s == r);//false cunku adresler farkli
         System.out.println(s.equals(r));//true cunku equals() sadece degerlere bakar
-                                        // "s" ve "r" nin degerleri ayni oldugunda true verir
+        // "s" ve "r" nin degerleri ayni oldugunda true verir
 //___________________________________________________________________________________________________________________________
-        //Ornek 3: Verilen iki string in birbirinin aynisi olup olmadigini buyuk harf kucuk harf dikkate almadan
+        // Ornek 3: Verilen iki string in birbirinin aynisi olup olmadigini buyuk harf kucuk harf dikkate almadan
         // kontrol eden kodu yaziniz
-        // equalsIgnoreCase()iki string in birbirinin aynisi olup olmadigini buyuk harf kucuk harf dikkate almadan kontrol eder
+        // equalsIgnoreCase() iki string in birbirinin aynisi olup olmadigini buyuk harf kucuk harf dikkate almadan kontrol eder
 
         String j = "ali Can";
         String k = "Ali Can";

@@ -2,14 +2,15 @@ package day14loops;
 
 public class Loops01 {
     public static void main(String[] args) {
-        //Ornek: Bir String i ters ceviren kodu yaziniz
-        // "Java" ==> "avaJ"
+
+        //Ornek: Bir String i ters ceviren kodu yaziniz (meshur bir interview sorusu)
+        //       "Java" ==> "avaJ"
 
         //1. Yol
         String t = "Java";
-        String ters = " ";
-        for (int i = t.length()-1 ; i>=0 ; i--){
-            ters = ters + t.substring(i,i+1);
+        String ters = "";
+        for (int i = t.length() - 1; i >= 0; i--) {
+            ters = ters + t.substring(i, i + 1);
         }
         System.out.println(ters);
 
@@ -17,28 +18,27 @@ public class Loops01 {
         String u = "Java";
         String ters2 = "";
 
-        for (int i = u.length()-1 ; i>=0 ; i-- ){
+        for (int i = u.length() - 1; i >= 0; i--) {
             ters2 = ters2 + u.charAt(i);
         }
         System.out.println(ters2);
 
         //Ornek 2: Size verilen bir Stgring in polindrome olup olmadigini kontrol eden kodu yaziniz
-        //          "ey edip adanada pide ye", nalan, kucuk, ada
+        //         "ey edip adanada pide ye", nalan, kucuk, ada
         //Logic: Stringi ters cevir sonra da düz hali ile ters halini karsilastirir, ayni ise "Polindrome"dur
 
-        String duz = "Ey edip adanada pide ye.";
+        String duz = "Ey edip adanada pide ye";
         String ters3 = "";
-        for (int i=duz.length()-1 ; i>=0; i--  ){
-            ters3=ters3+duz.charAt(i);
-                }
+        for (int i = duz.length() - 1; i >= 0; i--) {
+            ters3 = ters3 + duz.charAt(i);
+        }
         System.out.println(ters3);
 
-        if(duz.equalsIgnoreCase(ters3)){
+        if (duz.equalsIgnoreCase(ters3)) {
             System.out.println("Palindrome dur");
-        }else{
+        } else {
             System.out.println("Palindrome degildir");
         }
 
     }
-
 }

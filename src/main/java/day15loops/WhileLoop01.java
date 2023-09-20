@@ -12,9 +12,8 @@ public class WhileLoop01 {
         //while loop kalibi
         /*
         baslangic degeri
-        while(loop calisma kurali ){
+        while(loop calisma kurali){
             calisacak kodlar
-
             artirma / azaltma
         }*/
 
@@ -24,10 +23,9 @@ public class WhileLoop01 {
             System.out.print(i + " ");
         }
         System.out.println();
+
         //2. yol : while loop
-
         int i = 3;
-
         while (i < 7) {
             System.out.print(i + " ");
             i++;
@@ -36,7 +34,6 @@ public class WhileLoop01 {
 
         // Ornek 2: 23 den 12 ye kadar cift tamsayilari console a yazdiriniz
         int k = 23;
-
         while (k > 11) {
             if (k % 2 == 0) {
                 System.out.print(k + " ");
@@ -47,10 +44,9 @@ public class WhileLoop01 {
 
         // Ornek 3: 6 dan 19 a kadar tek tamsayilari console a yazdiriniz
         int a = 6;
-
-        while (a<20){
-            if(a%2!=0){
-                System.out.print(a+" ");
+        while (a < 20) {
+            if (a % 2 != 0) {
+                System.out.print(a + " ");
             }
             a++;
         }

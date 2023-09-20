@@ -39,7 +39,7 @@ public class Arrays01 {
         System.out.println(stdNames[0]);//Ekim
 
         //Ornek 1: Arraydeki her elemanin sonuna "!" isareti koyarak ekrana yazdiriniz.
-        // length() string lerde method (parantezli), arraylerde ise parantezsiz yazilir(method degil)
+        // length() string lerde MethodOlusturma (parantezli), arraylerde ise parantezsiz yazilir(MethodOlusturma degil)
         //  0       1       2       3       4
         //[Ekim, Ailana, Benna, Abdullah, Recep]
 

@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class NestedIf01 {
     public static void main(String[] args) {
-        /*
-        Example 1: Kullanicidan 3 tane sayi aliniz.
+
+        /* Example 1:
+                 Kullanicidan 3 tane sayi aliniz.
                  Bu 3 sayinin ucgen olusturma durumunu kontrol ediniz
                  Eger ucgen ise “eskenar” Ucgen olma durumunu kontrol ediniz.
                  INFO :
@@ -27,19 +28,17 @@ public class NestedIf01 {
         boolean ucgenmi = a + b > c && c > Math.abs(a - b) &&
                 a + c > b && b > Math.abs(a - c) &&
                 b + c > a && a > Math.abs(b - c);
+        System.out.println("ucgenmi = " + ucgenmi);
 
         if (ucgenmi) {
-
             if (a == b && b == c) {
                 System.out.println("Ucgen hemde eskenar ucgen");
             } else {
                 System.out.println("Ucgen ama eskenar degil");
             }
-
         } else {
-            System.out.println("Sen ucgen degilsin");
+            System.out.println("Girmis oldugunuz uzunluklarla bir ücgen elde edilemiyor");
         }
-
 
     }
 }

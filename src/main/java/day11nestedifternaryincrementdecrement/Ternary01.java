@@ -1,11 +1,11 @@
 package day11nestedifternaryincrementdecrement;
 
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 
 public class Ternary01 {
 
     public static void main(String[] args) {
+
         //Ternary Statement
         //Ornek 1: Sayi 10 dan kucuk ise console a "kucuk" yazdirin, degil ise "Kucuk degil" yazdirin
 
@@ -19,7 +19,7 @@ public class Ternary01 {
         }
 
         //-------Ternary Cozumu------
-        //  Conditon    ?   Condition true ise calisir  :   Condition falsi ise calisir ;
+        //  Conditon    ?   Condition true ise calisir  :   Condition false ise calisir ;
         String sonuc = num < 10 ? "Kucuk" : "Kucuk degil";
         System.out.println(sonuc);
 

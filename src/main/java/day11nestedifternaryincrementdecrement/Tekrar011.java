@@ -67,12 +67,17 @@ public class Tekrar011 {
         int c = 4;
         int r2 = c < 0 ? -1 * c : c;
 
-        int m=5;
-        int n=-6;
+        int m = 5;
+        int n = -6;
 
-        Object r3= (m>0 && n>0) || (c<0 && n<0) ? m*n:"farkli isaretli sayilari carpamiyorum";
+        Object r3 = (m > 0 && n > 0) || (c < 0 && n < 0) ? m * n : "farkli isaretli sayilari carpamiyorum";
         System.out.println(r3);
 
+        int p = 313;
+        p = Math.abs(p);
+
+        String r4 = p > 99 && p < 1000 ? "uc basamaklidir" : "uc basamakli degildir";
+        System.out.println(r4);
 
     }
 }

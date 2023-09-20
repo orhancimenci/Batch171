@@ -18,9 +18,8 @@ public class NestedLoop01 {
 
         for (int i = 1; i < 3; i++) {
             System.out.println("Week : " + i);
-            for (int k = 1; k < 3; k++) {
-
-                System.out.println("   Day : " + k);
+            for (int k = 1; k < 4; k++) {
+                System.out.println("Day : " + k);
             }
         }
 

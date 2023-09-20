@@ -1,6 +1,7 @@
 package day03methodobjectcreationscanner;
 
 // java nin "util kutuphanesi"nden scanner class import edildi.
+
 import java.util.Scanner;
 
 public class Scanner01 {
@@ -12,7 +13,7 @@ public class Scanner01 {
         // 2. adim kullaniciya ne istediginize dair mesaj veriniz.
         System.out.println("Lütfen yasinizi giriniz");
 
-        // 3. adim Uygun methodu kullanarak kullacinin verdigi datayi memory e yerlestiriniz.
+        // 3. adim uygun methodu kullanarak kullacinin verdigi datayi memory e yerlestiriniz.
         byte age = input.nextByte();
 
         System.out.println("age = " + age);

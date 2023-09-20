@@ -30,7 +30,7 @@ public class Tekrar01 {
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen passwordunuzu giriniz...");
         String password = input.nextLine();
-        //uygun bir method secerek, kullanicinin girecegi datayi application ımın icine almam gerek
+        //uygun bir MethodOlusturma secerek, kullanicinin girecegi datayi application ımın icine almam gerek
 
         boolean first = password.length() > 7;
         System.out.println("first= " + first);

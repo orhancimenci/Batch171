@@ -6,13 +6,13 @@ public class Runner {
 
         //"Object" nasil olusturulur
 
-        //New keywordu sifirdan yeni bir object olusturmak icin kullanilir
-        //Constructor java da objeleri olusturmak icin kullanilan ozel bir methoddur
-        //Class ismi + Object ismi + Assigment Operator + " new" keywordu + Constructor
-            Car           myCar              =                  new            Car();
+        //"New keywordu" sifirdan yeni bir object olusturmak icin kullanilir
+        //Constructor javada objeleri olusturmak icin kullanilan ozel bir methoddur
+        //Class ismi + Object ismi + Assigment Operator + new keywordu + Constructor;
+        Car myCar = new Car();
 
-        System.out.println("myCar.fiyat = " + myCar.fiyat);
         System.out.println("myCar.model = " + myCar.model);
+        System.out.println("myCar.fiyat = " + myCar.fiyat);
 
         myCar.hareket();
         myCar.dur();

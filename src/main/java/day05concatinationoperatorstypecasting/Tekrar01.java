@@ -8,6 +8,7 @@ public class Tekrar01 {
         int b = 11;
         System.out.println(s + a + b);  //elma1011
         //concatination: birlestirme
+
         System.out.println(s + (a + b));//elma21
         System.out.println(s + a * b);  //elma110
         System.out.println(a + b + s);  //21elma

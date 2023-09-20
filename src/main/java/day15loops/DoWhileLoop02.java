@@ -13,23 +13,18 @@ public class DoWhileLoop02 {
 
         Scanner input = new Scanner(System.in);
 
-        do{
-
+        do {
             System.out.println("Bir sayi giriniz");
-            int num= input.nextInt();
+            int num = input.nextInt();
 
-            if(num>=100){
-
-
+            if (num >= 100) {
                 System.out.println("Kazandiniz");
-            }else{
-
+            } else {
                 System.out.println("Kaybettiniz");
                 break;
-
             }
 
-        }while (true);
+        } while (true);
 
     }
 

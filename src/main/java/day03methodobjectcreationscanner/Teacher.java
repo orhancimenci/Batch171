@@ -10,7 +10,7 @@ public class Teacher {
     public String isim = "Mehmet";
     public byte age = 34;
 
-    //method (==>aktif ozellikler)
+    //MethodOlusturma (==>aktif ozellikler)
 
     public void teach(){
         System.out.println("Yuzundeki ve gozlerindeki enerjiyle ogrencilerini motive eder.");

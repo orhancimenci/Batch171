@@ -14,12 +14,12 @@ public interface Ac {
         multiple parent a ihtiyac duyariz
         Bu ihtiyaci g idermek icin java interface adinda yeni bir yapi olusturdu
         Bu yapi sayesinde bir class icin coklu interface parent olusturulabilir
-        3) interfacelerin icine conceret method konulamaz, cunku concrete methodlarda body vardir ve
+        3) interfacelerin icine conceret MethodOlusturma konulamaz, cunku concrete methodlarda body vardir ve
         body o methodun isi nasil yapacagini belirtir. isin nasil yapilacagi bir cok detay icerir ve bu chlid
         classlarda kafa karisikligina sebep olur. Halbuki sadece yapilmasi gereken isi soyleyip
          nasil yapilaacgini childa birakirsaniz chil classin kafa karisikligini engellemis olursunuz
         4) interfacelerdeki tum methodlar otomatik olara public dir, abstracttir, static degildir
-        5)interfaceler concrete method iceremezler dolayisyal interface icindeki hicbirsey istege bagli degildir
+        5)interfaceler concrete MethodOlusturma iceremezler dolayisyal interface icindeki hicbirsey istege bagli degildir
         hersey child classlar icin mecburidir. Bu yuzden interfacelere" to-do list " de denir
         6)Coklu interface parentlarin herbirinin icine ayni isimli methodlar koyabiliriz
         Mesela Ac nin, Engine'in ve Security nin iclerine "run()" metodu koymak gibi
@@ -31,9 +31,9 @@ public interface Ac {
            c) interface lerdeki tum variablelar otomatik olarak(default) olarak staticdir.
            => dolayisiyla interfacelerde variable cagirirken interface adini kullanarak cagiririz, bu hem static varibale olamanin geregidir
            hemde okunurlugu artirir
-        8)  Normalde "interface" icine "concrete method" konulamaz ama bazi ozel durumlarda "concrete method"
+        8)  Normalde "interface" icine "concrete MethodOlusturma" konulamaz ama bazi ozel durumlarda "concrete MethodOlusturma"
         koymamaiz gerekirse default keyword kullanarak bunu yapabiliriz
-            static keyworudun kullanarak ta interface icine concrete method koyabiliriz
+            static keyworudun kullanarak ta interface icine concrete MethodOlusturma koyabiliriz
         9) "default" keyword unu kullanarak olusturdugunuz "concerete methodlara interface in chil classindan
         object olusturarak ulasabilirsiniz.
             "static keywordunu" kullanarak olusturdugunuz concrete methodlara ulasmak icin
@@ -50,8 +50,8 @@ public interface Ac {
 
                 Abstract class ile interface arasindaki farklar nelerdir?
 
-             1) Abstract classlar hem abstract hemde concrete methodlar icerebilir fakat interfaceler sadece abstract method icerir.
-                ama interface'lerde istersek "default" ve "static " keywordlerini kullanarak "concrete" method uretebiliriz
+             1) Abstract classlar hem abstract hemde concrete methodlar icerebilir fakat interfaceler sadece abstract MethodOlusturma icerir.
+                ama interface'lerde istersek "default" ve "static " keywordlerini kullanarak "concrete" MethodOlusturma uretebiliriz
              2) Abstract classlar multiple inheritance i desteklemez. ama interface ler destekler
              3) Abstract classlar icinde her turlu variable olusturabilir, interface ler icindeki variabllar public, static ve final olmak zorundadir
              4) interface Class in childi olamaz ama abstract class classin childi olabilir

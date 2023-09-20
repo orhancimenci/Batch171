@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class IfStatements01 {
     public static void main(String[] args) {
+
         //Example:  Verilen bir sayinin pozitif, negatif veya notr oldugunu kontrol eden kodu yaziniz
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen bir sayi giriniz..");

@@ -3,6 +3,7 @@ package day10ifstatements;
 import java.util.Scanner;
 
 public class Homework01 {
+
     /* Homework
     1) Kullanicidan alinan password 'pwd123!' oldugunda, verilen password'un dogru olup olmadigini kontrol eden
        ve kullaniciya uygun mesaj veren kodu yaziniz

@@ -6,8 +6,8 @@ public class Varargs01 {
         System.out.println(add(2, 3, 4, 5, 6));
     }
 
-    //Note 1) Bir method parantezinde birden fazla Varargs kullanilamaz
-    //Note 2) Eger bir method parantezinde birden fazla parametre kullanilacaksa Varargs sonda olmalidir
+    //Note 1) Bir MethodOlusturma parantezinde birden fazla Varargs kullanilamaz
+    //Note 2) Eger bir MethodOlusturma parantezinde birden fazla parametre kullanilacaksa Varargs sonda olmalidir
     public static int add(int... a) {
         int sum = 0;
         for (int w : a) {
@@ -19,13 +19,13 @@ public class Varargs01 {
 
     //Asagidaki gibi farkli methodlar olusturarak is yapamayiz
     //Cunku kullanici farkli sayidaki sayilari toplamak isteyebilir
-    //her ihtimal icin bir method olusturmak mumkun degildir
+    //her ihtimal icin bir MethodOlusturma olusturmak mumkun degildir
     //java farkli sayidaki parametrelerin hepsini kabul eden bir yapi olusturdu.
     //Bu yapiya Varargs denir
     //Varargs arkada Array yapisini kullanir.
 
 //
-//    //toplama islemi yapan bir method olusturun
+//    //toplama islemi yapan bir MethodOlusturma olusturun
 //    public static int add(int a, int b){
 //        return a+b;
 //    }

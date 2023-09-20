@@ -52,8 +52,8 @@ public class StringManipulations01 {
         boolean isStart = s.startsWith("Java");
         System.out.println(isStart);
 
-        //Ornek 11: "s" String inin 5. index dahil olmak uzere bu indexten itibaren "i" karakteri ile baslayip baslamadigini
-        //kontrol eden kodu yaziniz
+        //Ornek 11: "s" String inin 5. index dahil olmak uzere bu indexten itibaren "i" karakteri ile
+        //          baslayip baslamadigini kontrol eden kodu yaziniz
         boolean isBegin = s.startsWith("i", 5);
         System.out.println(isBegin);//true
 

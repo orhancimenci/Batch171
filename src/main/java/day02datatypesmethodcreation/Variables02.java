@@ -34,11 +34,11 @@ public class Variables02 {
         //Memory de bir alan rezerve edildi
         //ulkeIsmi adında bir sepet olustu
         //kavanoz olusturuk. icindeki "null" ı sildik. "Turkiye" yaptık ==> Variable koyduk ==> pasif özellik
-        //sepetimizin icinde aktif özellikler de var ==>method
+        //sepetimizin icinde aktif özellikler de var ==>MethodOlusturma
 
-        //method örnek:
-        //Turkiye ==> TURKIYE => tum karakterleri buyuk harfe dönusturen method var
-        //Turkiye ==> 7       => karakterlerin sayisini veren method var
+        //MethodOlusturma örnek:
+        //Turkiye ==> TURKIYE => tum karakterleri buyuk harfe dönusturen MethodOlusturma var
+        //Turkiye ==> 7       => karakterlerin sayisini veren MethodOlusturma var
 
 
         /*

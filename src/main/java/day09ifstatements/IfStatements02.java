@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class IfStatements02 {
     public static void main(String[] args) {
-        //Ornek: Kullanicidan alinan bir sayinin tek mi cift mi oldugunu konsola yazdiriniz
+
+        // Ornek: Kullanicidan alinan bir sayinin tek mi cift mi oldugunu konsola yazdiriniz
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen bir sayi giriniz...");
         int num = input.nextInt();

@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class IfStatements03 {
     public static void main(String[] args) {
 
-        //Example 1: Ay isimleri girilince kacinci ay oldugunu yazan kodu yaziniz.
-        // January ==> 1  ,  February ==>2
+        // Example 1: Ay isimleri girilince kacinci ay oldugunu yazan kodu yaziniz.
+        //            January ==> 1  ,  February ==>2
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen ay ismi giriniz...");
         String monthName = input.next();

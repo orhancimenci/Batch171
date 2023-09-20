@@ -12,7 +12,7 @@ public class Switch02 {
         System.out.println("Baslangic ayinin kacinci ay oldugunu giriniz");
         int numOfMonth = input.nextInt();
 
-        switch (numOfMonth){
+        switch (numOfMonth) {
             case 1:
                 System.out.println("January");
             case 2:
@@ -45,10 +45,8 @@ public class Switch02 {
 
         /*
         Note : "switch" condition parantezi icinde String, int, byte, short, char kullanilabilir
-        Note :  "switch" condition parantezi icinde long, boolean, float, double kullanilamaz.
-
-         */
+        Note : "switch" condition parantezi icinde long, boolean, float, double kullanilamaz
+        */
 
     }
-
 }
